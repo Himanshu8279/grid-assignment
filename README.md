@@ -203,49 +203,63 @@ grid-template-columns: 200px 200px 200px;
 grid-template-rows: 100px 100px;
 border: solid  black 2px;
 
-grid-template-areas :
 
-"box-1 box-1 box-2"
-"box-3 box-4 box-2";
 
+Q=3
+
+<!DOCTYPE>
+ <html>
+    <head>
+
+             <title>  question 1</title>
+
+    </head>
+
+<link rel="stylesheet" href="grid-assignment3.css">
+
+  <body>
+   
+        <div class="main-div">
+
+
+           <div class="box box-1">A</div>
+           <div class="box box-2">b</div>
+           <div class="box box-3">c</div>
+           <div class="box box-4">d</div>
+             
+                  
+
+           
+       </div>
+
+  </body>
+
+<html/>
+
+STYLESHEET=
+
+
+
+.main-div{
+
+
+display: grid ;
+width: 500px;
+grid-template-columns: 100px 100px;    /*use grid-auto-column:  100px;*/
+grid-auto-rows: 150px;                 /*use grid-template-row: 100px;*/
 gap: 10px;
+border: solid black 2px;
 padding: 10px;
-
+background-color: red;
 
 
 }
 .box{
 
-border: solid white 2px;
+border : solid black 2px;
 text-align: center;
-font-wight: bold;
-font-size: 4rem;
-border-radius: 10px;
+font-size: 50px;
+background: green;
+
+
 }
-
-.box-1{
-
-grid-area: box-1;
-background-color: yellow;
-}
-
-.box-2{
-
-grid-area: box-2;
-background-color: yellow;
-}
-
-.box-3{
-
-grid-area: box-3;
-background-color: yellow;
-}
-
-.box-4{
-
-grid-area: box-4;
-background-color: yellow;
-}
-
-
-<html/>
