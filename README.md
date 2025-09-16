@@ -263,3 +263,136 @@ background: green;
 
 
 }
+
+Q=4 
+
+<!DOCTYPE>
+ <html>
+    <head>
+
+             <title>  question 1</title>
+
+    </head>
+
+<link rel="stylesheet" href="grid-assignment4.css">
+
+  <body>
+   
+        <div class="container">
+
+
+           <div class="box box1">1</div>
+           <div class="box box2">2</div>
+           <div class="box box3">3</div>
+           <div class="box box4">4</div>
+           <div class="box box5">5</div>
+           <div class="box box6">6</div>
+           <div class="box box7">7</div>
+           <div class="box box8">8</div>
+  
+                  
+
+           
+       </div>
+
+  </body>
+
+<html/>
+
+stylesheet=
+
+.container{
+
+  display: grid;
+  
+  border: solid black 2px;
+  width: 800px;
+  
+  grid-template-columns: repeat(6, 100px);
+  grid-template-rows: repeat(2, 80px);
+  padding: 10px;
+  gap: 10px;   
+
+   
+
+}
+.box{
+
+border: solid black 2px;
+border-radius: 10px;
+text-align: center;
+padding: 15px;
+
+}
+.box3{
+
+grid-column : 1/span 1;
+grid-row:1;
+
+
+background-color: black;
+color: white;
+
+
+
+}
+.box4{
+
+grid-column : 2/span 1;
+grid-row:1;
+
+}
+.box5{
+
+grid-column : 3/span 1;
+grid-row:1;
+
+
+background-color: black;
+color: white;
+
+
+
+}
+.box6{
+
+grid-column : 4/span 1;
+grid-row:1;
+
+}
+.box7{
+
+grid-column : 5/span 1;
+grid-row:1;
+
+
+background-color: black;
+color: white;
+
+
+
+}
+.box8{
+
+grid-column : 6/span 1;
+grid-row:1;
+
+}
+.box1{
+
+grid-column : 1/span 1;
+grid-row:2;
+
+background-color: black;
+color: white;
+
+
+
+}
+.box2{
+
+grid-column : 2/span 1;
+grid-row:2;
+
+
+}
