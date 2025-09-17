@@ -396,3 +396,109 @@ grid-row:2;
 
 
 }
+
+
+q=5  
+
+
+<!DOCTYPE>
+ <html>
+    <head>
+
+             <title>  question 1</title>
+
+    </head>
+
+<link rel="stylesheet" href="grid-assignment5.css">
+
+  <body>
+      
+    <div class= container>
+   
+        <div class="main-div">
+
+
+           <div class="box box1">A</div>
+           <div class="box box2">b</div>
+           <div class="box box3">c</div>
+           <div class="box box4">d</div>
+             
+                  
+
+           
+       </div>
+
+        <div class="main-div2">
+
+
+           <div class="box box-1">1</div>
+           <div class="box box-2">2</div>
+           <div class="box box-3">3</div>
+           <div class="box box-4">4</div>
+             
+                  
+
+           
+       </div>
+
+  </div>
+
+  </body>
+
+<html/>
+
+stylesheet=
+
+.container{
+
+margin: 20px;
+
+}
+
+.main-div {
+
+
+    display: grid;
+    grid-template-columns: repeat(2, 100px);
+    justify-items: end; /* All items will be centered horizontally */
+    gap: 10px;
+    border: 1px solid black;
+  
+
+
+}
+
+.box{
+
+  border: solid black 2px;
+  
+
+
+}
+.main-div2{
+
+    border: solid black 2px;
+    display: grid;
+    grid-template-columns: repeat(2, 100px);
+    gap: 10px;
+    margin-top: 10px;
+  
+
+
+
+
+}
+.box-1{
+    justify-self: center;
+  }
+
+  .box-2{
+    justify-self: start;
+  }
+
+  .box-3{
+    justify-self: end;
+  }
+
+
+  
